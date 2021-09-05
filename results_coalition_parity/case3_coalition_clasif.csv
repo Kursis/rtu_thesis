@@ -1,0 +1,14 @@
+dataset,model,current_feature_str,mcc_test,init_mcc_test_mean,mcc_gain_loss
+wine,XGBClassifier,"{'color_intensity', 'proline', 'flavanoids'}",0.9585379224065476,0.9613593719938647,-0.29
+wine,RandomForestClassifier,"{'color_intensity', 'proline', 'flavanoids'}",0.9584484456820235,0.976401358632558,-1.84
+wine,DecisionTreeClassifier,"{'color_intensity', 'proline', 'flavanoids'}",0.9106654787780181,0.8742819750426938,4.16
+phishing,XGBClassifier,"{'SSLfinal_State', 'having_Sub_Domain', 'URL_of_Anchor', 'web_traffic', 'SFH', 'Prefix_Suffix'}",0.8796306785885291,0.9381846813700099,-6.24
+phishing,RandomForestClassifier,"{'SSLfinal_State', 'having_Sub_Domain', 'URL_of_Anchor', 'web_traffic', 'SFH', 'Prefix_Suffix'}",0.8730642488686791,0.9402630361591753,-7.15
+phishing,DecisionTreeClassifier,"{'SSLfinal_State', 'having_Sub_Domain', 'URL_of_Anchor', 'web_traffic', 'SFH', 'Prefix_Suffix'}",0.8784923348454958,0.9193614987248901,-4.45
+mushroom,XGBClassifier,"{'spore-print-color', 'ring-type', 'odor', 'gill-color'}",0.9888094840279639,1.0,-1.12
+mushroom,RandomForestClassifier,"{'gill-size', 'spore-print-color', 'odor', 'stalk-surface-below-ring'}",0.9979488042848367,1.0,-0.21
+mushroom,DecisionTreeClassifier,"{'spore-print-color', 'ring-type', 'odor', 'gill-color'}",0.9888094840279639,0.9996063199254442,-1.08
+breast_cancer,XGBClassifier,"{'worst concavity', 'mean concave points', 'worst concave points', 'worst area', 'worst perimeter', 'worst texture'}",0.9376499884661174,0.9228050983442305,1.61
+breast_cancer,RandomForestClassifier,"{'worst concavity', 'mean texture', 'worst smoothness', 'worst concave points', 'area error', 'worst texture'}",0.962735609928678,0.9126579429428348,5.49
+breast_cancer,RandomForestClassifier,"{'worst radius', 'mean concave points', 'mean texture', 'worst concave points', 'worst perimeter', 'worst texture'}",0.962735609928678,0.9126579429428348,5.49
+breast_cancer,DecisionTreeClassifier,"{'worst symmetry', 'worst concavity', 'worst radius', 'mean texture', 'worst concave points', 'area error'}",0.9378410402480788,0.8578715602057182,9.32

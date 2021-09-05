@@ -1,0 +1,17 @@
+dataset,model,current_feature_str,feature_dropped_perc,mse_test,init_mse_test_mean
+diabetes,XGBRegressor,"{'s6', 's5', 'bmi'}",0.7000000000000001,4347.495687730255,3902.4724910580308
+diabetes,RandomForestRegressor,"{'s5', 'bmi'}",0.8000000000000002,3630.007552481133,3343.880403308271
+diabetes,DecisionTreeRegressor,{'bmi'},0.8999999999999994,5713.3406339114945,6308.333909774434
+diabetes,DecisionTreeRegressor,{'bp'},0.9,6095.889192181511,6308.3339097744365
+diabetes,DecisionTreeRegressor,{'s5'},0.9,6164.360380116959,6308.3339097744365
+diabetes,DecisionTreeRegressor,{'s6'},0.9,6054.016208581462,6308.3339097744365
+crime,XGBRegressor,"{'HousVacant', 'PctKids2Par', 'NumStreet', 'PctIlleg', 'PctPersDenseHous', 'PctFam2Par', 'PolicBudgPerPop'}",0.9426229508196722,0.027951888620613104,0.022346424619860205
+crime,RandomForestRegressor,"{'HousVacant', 'PctPersDenseHous', 'PctKids2Par', 'PctYoungKids2Par', 'racePctWhite', 'NumStreet', 'MalePctDivorce', 'racepctblack', 'PctHousNoPhone'}",0.9262295081967213,0.0200724771953255,0.019592732147579256
+crime,DecisionTreeRegressor,{'PctIlleg'},0.991803278688523,0.027789437058210707,0.03940549582637721
+boston,XGBRegressor,"{'PTRATIO', 'RM', 'LSTAT', 'NOX'}",0.6923076923076921,12.474954186647368,13.316548605528997
+boston,RandomForestRegressor,"{'RM', 'LSTAT', 'INDUS', 'NOX'}",0.6923076923076923,14.100995314144738,13.260919136710527
+boston,DecisionTreeRegressor,"{'RM', 'LSTAT'}",0.8461538461538463,32.98154385964912,26.983920394736852
+ames_housing,XGBRegressor,"{'Lot Area', '1st Flr SF', 'Garage Yr Blt', 'Year Remod/Add', 'BsmtFin SF 1', 'Garage Cars', 'Bsmt Qual', 'Gr Liv Area', 'Year Built', 'Overall Cond', 'Total Bsmt SF', 'Overall Qual'}",0.8481012658227848,522525262.527222,559073642.4972976
+ames_housing,RandomForestRegressor,"{'Garage Cars', 'Bsmt Qual', 'Gr Liv Area', 'Year Built', 'Total Bsmt SF', 'Neighborhood', 'Garage Area', 'Overall Qual'}",0.89873417721519,648022441.5735658,599341237.7808443
+ames_housing,DecisionTreeRegressor,"{'Overall Qual', 'Garage Cars'}",0.9746835443037976,1453991831.5224774,1298981724.7733936
+ames_housing,DecisionTreeRegressor,"{'Overall Qual', 'Neighborhood'}",0.9746835443037974,1466690988.466713,1298981724.7733936

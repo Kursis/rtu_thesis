@@ -1,0 +1,9 @@
+dataset,DT(opt)vsRF(all),DT(opt)vsGBDT(all),task,metric
+diabetes,63.5,67.38,regression,mse
+crime,66.93,73.1,regression,mse
+boston,56.17,69.34,regression,mse
+ames_housing,57.1,50.27,regression,mse
+wine,97.26,97.26,classification,mcc
+phishing,98.73,99.24,classification,mcc
+mushroom,100.0,100.0,classification,mcc
+breast_cancer,101.25,98.67,classification,mcc

@@ -1,0 +1,23 @@
+dataset,model,current_feature_str,feature_dropped_perc,mcc_test,init_mcc_test_mean
+wine,XGBClassifier,"{'color_intensity', 'proline', 'flavanoids'}",0.7692307692307692,0.9723572051010048,0.9613593719938583
+wine,RandomForestClassifier,"{'color_intensity', 'alcohol', 'flavanoids'}",0.7692307692307692,0.9816739311303605,0.9764013586325534
+wine,RandomForestClassifier,"{'color_intensity', 'proline', 'flavanoids'}",0.7692307692307696,0.9791230255763718,0.9764013586325536
+wine,RandomForestClassifier,"{'od280/od315_of_diluted_wines', 'color_intensity', 'proline'}",0.7692307692307692,0.9445025828707092,0.9764013586325534
+wine,RandomForestClassifier,"{'od280/od315_of_diluted_wines', 'proline', 'flavanoids'}",0.7692307692307692,0.94565673420689,0.9764013586325534
+wine,DecisionTreeClassifier,"{'color_intensity', 'flavanoids'}",0.8461538461538465,0.8857754238335778,0.8742819750427023
+wine,DecisionTreeClassifier,"{'color_intensity', 'proline'}",0.8461538461538461,0.8364485981308412,0.8742819750427023
+phishing,XGBClassifier,"{'double_slash_redirecting', 'having_IP_Address', 'SSLfinal_State', 'popUpWidnow', 'having_Sub_Domain', 'URL_of_Anchor', 'Google_Index', 'SFH', 'Page_Rank', 'URL_Length', 'web_traffic', 'Request_URL', 'DNSRecord', 'Links_pointing_to_page', 'Links_in_tags', 'Prefix_Suffix', 'age_of_domain'}",0.43333333333333335,0.93771012366254,0.9381846813700097
+phishing,XGBClassifier,"{'having_IP_Address', 'SSLfinal_State', 'popUpWidnow', 'having_Sub_Domain', 'URL_of_Anchor', 'Google_Index', 'SFH', 'Page_Rank', 'DNSRecord', 'web_traffic', 'Request_URL', 'Links_pointing_to_page', 'age_of_domain', 'Links_in_tags', 'Prefix_Suffix', 'Submitting_to_email', 'Domain_registeration_length'}",0.43333333333333346,0.9346107292365227,0.9381846813700097
+phishing,XGBClassifier,"{'having_IP_Address', 'SSLfinal_State', 'popUpWidnow', 'having_Sub_Domain', 'URL_of_Anchor', 'Google_Index', 'SFH', 'Page_Rank', 'URL_Length', 'web_traffic', 'Request_URL', 'DNSRecord', 'Links_pointing_to_page', 'Links_in_tags', 'Prefix_Suffix', 'age_of_domain', 'Domain_registeration_length'}",0.43333333333333346,0.9389147573890241,0.9381846813700098
+phishing,RandomForestClassifier,"{'having_IP_Address', 'SSLfinal_State', 'having_Sub_Domain', 'URL_of_Anchor', 'Google_Index', 'SFH', 'Page_Rank', 'DNSRecord', 'web_traffic', 'Request_URL', 'Links_pointing_to_page', 'age_of_domain', 'Links_in_tags', 'Prefix_Suffix', 'Domain_registeration_length'}",0.5,0.924283974688271,0.940263036159175
+phishing,DecisionTreeClassifier,"{'having_IP_Address', 'SSLfinal_State', 'having_Sub_Domain', 'URL_of_Anchor', 'SFH', 'URL_Length', 'Links_pointing_to_page', 'web_traffic', 'Request_URL', 'age_of_domain', 'Links_in_tags', 'Prefix_Suffix', 'Submitting_to_email', 'Domain_registeration_length'}",0.5333333333333333,0.9164184972675417,0.9193614987248917
+mushroom,RandomForestClassifier,"{'gill-color', 'spore-print-color', 'odor', 'stalk-surface-above-ring', 'ring-type'}",0.7727272727272726,1.0,1.0
+mushroom,RandomForestClassifier,"{'gill-color', 'stalk-root', 'gill-size', 'spore-print-color', 'odor'}",0.7727272727272727,1.0,1.0
+mushroom,RandomForestClassifier,"{'habitat', 'population', 'gill-size', 'spore-print-color', 'odor'}",0.772727272727273,1.0,1.0
+mushroom,DecisionTreeClassifier,"{'gill-color', 'spore-print-color', 'odor', 'stalk-surface-above-ring', 'ring-type'}",0.7727272727272729,0.9983596663560327,0.9996063199254479
+breast_cancer,XGBClassifier,"{'worst perimeter', 'worst concave points', 'worst radius', 'mean texture'}",0.8666666666666669,0.9374499319073586,0.9228050983442257
+breast_cancer,XGBClassifier,"{'worst texture', 'worst area', 'worst concave points', 'mean concave points'}",0.8666666666666669,0.9376499884661171,0.9228050983442257
+breast_cancer,RandomForestClassifier,"{'worst concave points', 'area error'}",0.9333333333333332,0.8959847952402482,0.9126579429428313
+breast_cancer,RandomForestClassifier,"{'worst concave points', 'worst radius'}",0.9333333333333333,0.9001168224299065,0.9126579429428314
+breast_cancer,RandomForestClassifier,"{'worst perimeter', 'worst concave points'}",0.9333333333333333,0.9005671882949561,0.9126579429428314
+breast_cancer,DecisionTreeClassifier,{'worst concave points'},0.9666666666666666,0.7769044546261237,0.8578715602057214
